@@ -1,0 +1,55 @@
+body {
+    background-color: #0e7e12;
+}
+
+#card {
+    width: 300px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 5% auto;
+}
+
+#symbolTop {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    color: red;
+    font-size: 100px;
+    width: 60px;
+    height: 100px;
+}
+
+#number {
+    color: white;
+    font-size: 120px;
+    width: 120px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#symbolBottom {
+    float: right;
+    position: relative;
+    right: 10px;
+    bottom: -15px;
+    color: red;
+    font-size: 100px;
+    width: 60px;
+    height: 100px;
+    transform: rotate(-180deg);
+}
+
+#new-button {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.button {
+    width: 150px;
+    font-size: 22px;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
